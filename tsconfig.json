@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+      "esModuleInterop": true,
+      "outDir": "./dist",
+      "target": "es2017",
+      "module": "commonjs",
+      "strict": true
+  },
+  "include": ["src/**/*"],
+  "types": ["node", "express"]
+}

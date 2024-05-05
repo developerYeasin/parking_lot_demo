@@ -1,0 +1,41 @@
+{
+  "version": "5",
+  "dialect": "mysql",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "5",
+      "when": 1714727125588,
+      "tag": "0000_cool_fenris",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "5",
+      "when": 1714840423606,
+      "tag": "0001_demonic_wendell_rand",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "5",
+      "when": 1714846856558,
+      "tag": "0002_foamy_maverick",
+      "breakpoints": true
+    },
+    {
+      "idx": 3,
+      "version": "5",
+      "when": 1714847716004,
+      "tag": "0003_spooky_puppet_master",
+      "breakpoints": true
+    },
+    {
+      "idx": 4,
+      "version": "5",
+      "when": 1714856171957,
+      "tag": "0004_mixed_agent_brand",
+      "breakpoints": true
+    }
+  ]
+}

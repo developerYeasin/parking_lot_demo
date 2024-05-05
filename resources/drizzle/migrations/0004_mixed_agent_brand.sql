@@ -1,0 +1,1 @@
+ALTER TABLE `parking_lot` ADD `space` decimal(10,6);

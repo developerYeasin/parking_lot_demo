@@ -1,0 +1,33 @@
+{
+  "name": "parking_lot_demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --exec npx ts-node src/server.ts",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "migration:generate": "drizzle-kit generate:mysql",
+    "db:deploy": "ts-node --files resources/migrator.ts",
+    "db:migrate": "ts-node --files src/config/db/utils/migrator.ts",
+    "drizzle:studio": "drizzle-kit studio"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^20.12.7",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "drizzle-orm": "^0.30.10",
+    "express": "^4.19.2",
+    "mysql2": "^3.9.7",
+    "typescript": "^5.4.5"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.17",
+    "@types/express": "^4.17.21",
+    "drizzle-kit": "^0.20.17",
+    "nodemon": "^3.1.0",
+    "ts-node": "^10.9.2"
+  }
+}
